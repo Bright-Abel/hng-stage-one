@@ -317,8 +317,7 @@ header {
   margin-top: 2rem;
   text-align: center;
 }
-.slack__profile-pic {
-}
+
 .container {
   display: flex;
   justify-content: center;
@@ -327,11 +326,14 @@ header {
   /* overflow: hidden; */
 }
 .slack__image {
-  margin-top: 8rem;
+  margin-top: 5rem;
 }
-
+.slack__details {
+  margin-bottom: 4rem;
+}
 .details {
   margin-top: 10px;
+
   /* font-size: 1rem; */
 }
 .bg {
@@ -382,6 +384,7 @@ header {
 .title h2 {
   text-align: center;
   text-transform: uppercase;
+  margin-top: 1rem;
 }
 
 .title span,
@@ -393,9 +396,10 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 5rem;
+  margin-top: 2rem;
   line-height: 2;
   word-spacing: 5px;
+  margin-bottom: 1rem;
 }
 
 footer {
