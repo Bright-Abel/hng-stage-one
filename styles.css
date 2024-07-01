@@ -185,7 +185,7 @@ nav {
 }
 .fixed-nav .header__logo {
   text-transform: none;
-  font-size: 40px;
+  font-size: 28px;
   letter-spacing: -2px;
   font-weight: bold;
   background-image: url(myImg.jpeg);
@@ -194,7 +194,7 @@ nav {
 }
 
 .header__logo span {
-  font-size: 29px;
+  font-size: 20px;
 }
 
 .fixed-nav .links a {
@@ -212,7 +212,7 @@ nav {
 }
 .header__logo {
   text-transform: none;
-  font-size: 40px;
+  font-size: 28px;
   letter-spacing: -2px;
   font-weight: medium;
   background: var(--clr-black);
