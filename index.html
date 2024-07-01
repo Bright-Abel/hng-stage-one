@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hng Stage One</title>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <header id="home">
+      <!-- navbar -->
+      <nav id="nav">
+        <div class="nav-center">
+          <!-- nav header -->
+          <div class="nav-header">
+            <h1 data-testid="slackDisplayName" class="header__logo">
+              <span>@</span>abelBright
+            </h1>
+            <button class="nav-toggle">
+              <i class="fas fa-bars"></i>
+            </button>
+          </div>
+          <!-- links -->
+          <div class="links-container">
+            <ul class="links">
+              <li>
+                <a href="#home" class="scroll-link">home</a>
+              </li>
+              <li>
+                <a href="#goals" class="scroll-link">goals</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Header Info -->
+      <div class="banner">
+        <div class="container">
+          <h1>HNG Internship stage one</h1>
+          <!-- slack info -->
+          <!-- <div class="slack__info"> -->
+          <div class="slack__image">
+            <img
+              src="myImg.jpeg"
+              alt="Slack Display Name"
+              data-testid="slackProfilePicture"
+              class="slack__profile-pic"
+              style="height: auto; max-width: 100%"
+            />
+          </div>
+
+          <!--Slack Details -->
+          <div class="slack__details">
+            <h3 class="details bg" data-testid="slackDisplayName">
+              Slack Name: <span>@abelBright</span>
+            </h3>
+            <h2 class="details" data-testid="currentTimeUTC">
+              <span id="time">Loading...</span>
+            </h2>
+            <h2 class="details" data-testid="currentDay">
+              <span id="day">Loading...</span>
+            </h2>
+            <h3 class="details bg" data-testid="slackEmail">
+              Slack Email: <span>oluwasegunbarnabas@gmail.com</span>
+            </h3>
+          </div>
+          <!-- </div> -->
+        </div>
+      </div>
+    </header>
+
+    <!-- Goals -->
+    <section id="goals" class="section-center">
+      <div class="title">
+        <h2><span>My</span> Goal</h2>
+      </div>
+
+      <div class="slack__goal">
+        <p>
+          As a frontend engineer, my career aspirations for the next two years
+          are focused on <span>expanding my skill set</span> to become a
+          proficient full-stack developer. This ambition is driven by my passion
+          for programming and my desire to leverage my skills to generate a
+          <span>sustainable income.</span> Within the next few months, I aim to
+          achieve a significant milestone -
+          <span>earning a living through programming.</span> To accomplish this,
+          I am committed to dedicating myself to
+          <span>continuous learning,</span> honing my skills in
+          <span>backend development,</span> and staying up-to-date with industry
+          trends. By doing so, I am confident that I will not only enhance my
+          technical expertise but also open up new opportunities for
+          <span>growth and success</span> in the field of software development.
+        </p>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="">
+      <div class="section-center slack__footer">
+        <p>
+          &copy;copyright
+          <span id="date"></span>. @abelBright
+        </p>
+        <ul class="slack__links">
+          <li>
+            <a
+              href="https://hng.tech/learn"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-testid="hngLink"
+              >Learn on HNG</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://keyword.dog/"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-testid="keywordLink"
+              >Keyword.dog</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://scrapeanyweb.site/"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-testid="scrapeanywebLink"
+              >Scrape any website</a
+            >
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <a class="scroll-link top-link" href="#home">
+      <i class="fas fa-arrow-up"></i>
+    </a>
+    <!-- javascript -->
+    <script src="app.js"></script>
+  </body>
+</html>
